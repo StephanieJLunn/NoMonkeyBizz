@@ -48,6 +48,9 @@
      <Compile Include="Assets\Behaviors\Behavior_StateMachine.cs" />
      <Compile Include="Assets\Behaviors\Climb_StateMachine.cs" />
      <Compile Include="Assets\Behaviors\Jump_StateMachine.cs" />
+     <Compile Include="Assets\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\MenuToggle.cs" />
+     <Compile Include="Assets\QuitOnClick.cs" />
      <Compile Include="Assets\Script\Actionnable.cs" />
      <Compile Include="Assets\Script\Controller.cs" />
      <Compile Include="Assets\Script\MouseOrbitImproved.cs" />

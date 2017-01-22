@@ -18,8 +18,12 @@ public class mainMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        quit();
-        pauseGame();
+        //quit();
+        //pauseGame();
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 
     // quit the game
@@ -47,6 +51,8 @@ public class mainMenu : MonoBehaviour
             print("Cant do");
         else
             SceneManager.LoadScene(lvl[index]);
+
+        
     }
 
 }
